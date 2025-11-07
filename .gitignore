@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Excel files (optional - uncomment if you don't want to track Excel files)
+# *.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
+
