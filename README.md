@@ -9,7 +9,7 @@ A Python script to clean, normalize, and summarize Excel transaction files.
 - Load raw transaction Excel files.
 - Normalize string and date columns.
 - Remove unnecessary columns (`Conversion Amount`, `Foreign Currency Amount`).
-- Exclude November transactions.
+- Exclude transactions for non-required month/s (please customize).
 - Automatically detect and remove reversal transactions (e.g., payment reversals, failed payments).
 - Aggregate transactions by `Code` and other relevant fields.
 - Label each transaction as **Credit** or **Debit**.
